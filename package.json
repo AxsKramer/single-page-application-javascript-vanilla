@@ -1,0 +1,33 @@
+{
+  "name": "single-page-application-javascript-vanilla",
+  "version": "1.0.0",
+  "description": "+ API https://rickandmortyapi.com/api\r + SPA\r + Webapck\r + Babel",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxsKramer/single-page-application-javascript-vanilla.git"
+  },
+  "keywords": [],
+  "author": "Alexander Kramer <kramer.axs1@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AxsKramer/single-page-application-javascript-vanilla/issues"
+  },
+  "homepage": "https://github.com/AxsKramer/single-page-application-javascript-vanilla#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^5.1.2",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^1.3.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.1",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
